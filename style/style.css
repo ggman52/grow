@@ -480,7 +480,32 @@ html {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 100%;
+    max-width: 90%;
+  }
+
+  .main__subscr{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__subscr-hero{
+    width: 55%;
+  }
+
+  .main__subscr-info{
+    text-align: center;
+  }
+
+  .main__icons-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__plan-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
 
